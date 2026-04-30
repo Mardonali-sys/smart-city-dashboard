@@ -29,16 +29,16 @@ function App() {
         <nav>
           <ul style={{ listStyle: 'none', padding: 0 }}>
             <li style={{ marginBottom: '20px', display: 'flex', alignItems: 'center', gap: '10px' }}>
-              <MapIcon size={20} /> Monitoring Xaritasi
+              <MapIcon size={20} /> Monitoring xaritasi
             </li>
             <li style={{ marginBottom: '20px', display: 'flex', alignItems: 'center', gap: '10px' }}>
-              <Zap size={20} /> Energy Istemoli
+              <Zap size={20} /> Energy istemoli
             </li>
             <li style={{ marginBottom: '20px', display: 'flex', alignItems: 'center', gap: '10px' }}>
-              <Wind size={20} /> Havo Sifati (AQI)
+              <Wind size={20} /> Havo sifati (AQI)
             </li>
             <li style={{ marginBottom: '20px', display: 'flex', alignItems: 'center', gap: '10px' }}>
-              <Shield size={20} /> Xavfsizlik Kameralari
+              <Shield size={20} /> Xavfsizlik kameralari
             </li>
           </ul>
         </nav>
@@ -48,7 +48,7 @@ function App() {
       <main className="main-content">
         {/* Chap taraf: Xarita uchun joy */}
         <div className="card" style={{ gridRow: 'span 2' }}>  
-          <h3>Shahar Xaritasi</h3>
+          <h3>Shahar xaritasi</h3>
           <div className="map-placeholder" style={{ border: 'none' }}>
            <CityMap />
           </div>
@@ -68,7 +68,7 @@ function App() {
        </div>
 
         <div className="card">
-          <h3><Wind size={18} /> Havo Sifati</h3>
+          <h3><Wind size={18} /> Havo sifati</h3>
           <p style={{ color: '#22c55e' }}>Yaxshi (35 AQI)</p>
         </div>
       </main>
